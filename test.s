@@ -11,7 +11,7 @@ _start:
 movl $12, %eax
 movl $0, %edx
 movl $10, %ebx
-divl $10
+divl %ebx
 
 movl %edx, %ebx
 movl $1, %eax
